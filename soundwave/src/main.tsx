@@ -1,10 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './css/global.css';
+import { Layout } from 'antd';
+import AppHeader from './components/Header/Header';
+import AppContent from './components/body/body';
+import { Footer } from 'antd/es/layout/layout';
+import './css/global.css';
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layout> 
+      <AppHeader />
+      <AppContent />
+      <Footer/>
+    </Layout>  
   </React.StrictMode>,
-)
+  document.getElementById('root')
+);
