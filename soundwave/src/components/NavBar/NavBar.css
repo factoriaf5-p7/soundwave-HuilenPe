@@ -1,28 +1,19 @@
 .NavBar{
-    align-items: center;
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
-    max-width: 1200px;
-    padding: 0 40px;
-    width: 100%;
-  }
-
-  .items-menu{
-    background-color: var( --general-bg-color) ;
-    color:white;
-    min-width: 150px; 
-    font-size: 14px;
-  }
-
-
-  .home-link{
-    font-size: 23px;
-    font-weight:250;
-  }
-  @media (min-width: 768px){
-    .NavBar {
-    padding-left: 250px;
-    padding-right: 155px;
-  }
-  }
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header{
+  background: #2F303A !important;
+}
+.items-menu{
+  background-color: var( --general-bg-color) ;
+  color:white;
+  min-width: 150px; 
+  font-size: 14px;
+}
+.home-link{
+  font-size: 23px;
+  font-weight:250;
+}

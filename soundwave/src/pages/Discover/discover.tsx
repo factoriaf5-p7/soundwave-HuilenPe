@@ -3,19 +3,25 @@ import covers from "../../assets/covers.jpg";
 import { Footer } from "../../components/Footer/Footer";
 import "./Discover.css"
 import { Cards } from "../../components/Cards/Cards";
+import { Content, Header } from "antd/es/layout/layout";
+import Sider from "antd/es/layout/Sider";
 
 export function Discover() {
     return (
         <>
-            <NavBar />
-            <div className="dicoverFull">
+            <Header>
+                <NavBar />
+            </Header>
+            <Content>
+                <div className="dicoverFull">
                 <h1 className="newMusic" >Discover new music</h1>
                 <div className="cards">
-                    <Cards />
-                </div>
-                <h2 className="byJoining">By joining you can benefit by listening to the latest albums released.</h2>
+                <Cards />
+                        <h2 className="byJoining">By joining you can benefit by listening to the latest albums released.</h2>
+                    </div>
+                </div>    
                 <img className="plantilla" src={covers} />
-            </div> 
+            </Content >   
             <Footer />
         </>
     )

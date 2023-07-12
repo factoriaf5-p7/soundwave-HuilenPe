@@ -1,26 +1,29 @@
+.hero{
+  height: 100vh;
+}
 .girl{
   display: none;
 }
-.home-element {
-  margin: 0px 60px;
-}
 .Title{
-  font-size: 4rem;
-  margin-top: 6.5rem;
+  font-size: 3.5rem;
   margin-bottom: 25px;
   font-weight: 350;
   line-height: 1.4;
 }
 .Subtitle{
-  font-size: 1rem;
+  font-size: .9rem;
   font-weight: 350;
   line-height: 1.4;
   padding-right: 10px;
   letter-spacing: 1.5px;
 }
+.text{
+  margin-left: 75px;
+  margin-top: 180px;
+  margin-right: 75px;
+}
 .buttonAnt{
   margin-top: 20px;
-  margin-left: 60px;
 }
 .buttonAnt{
   background-color: var(--button-bg-color);
@@ -34,17 +37,20 @@
 @media (min-width: 768px) {
   .home-element {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+  }
+  .girl-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .girl-wrapper{
+    display: flex;
+    flex-direction: row;
   }
   .girl {
-    display: flex;
-    width: 20rem;
-    position: absolute;
-    margin-right: 1rem;
-    top: 50;
-    bottom: 0;
     transform: translateX(60%);
+    width: 400px;
   } 
   .Title{
     font-size: 40px;
@@ -53,11 +59,7 @@
     font-size: 13px;
   }
   .text{
-    position: absolute;
-    margin: 5rem;
-    margin-right: 250px;
-    margin-left: 33rem;
-    transform: translateX(10%);
-    bottom: 0;
+    margin-left: 20%;
+    margin-top: 7rem;
   }
 }

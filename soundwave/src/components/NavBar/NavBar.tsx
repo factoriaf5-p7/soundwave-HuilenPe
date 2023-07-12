@@ -6,7 +6,7 @@ import './NavBar.css'
 export const NavBar = () => {
     return (
         <div className='NavBar'>
-            <Menu className='items-menu' items={[{
+            <Menu className='items-menu' style={{ backgroundColor:"#2F303A"}} items={[{
                 label: (
                     <Link to="/" className="home-link">
                         <div style={{ display: 'flex' }}>
