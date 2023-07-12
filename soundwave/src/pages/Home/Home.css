@@ -1,3 +1,56 @@
-h1{
-    background-color: red;
+.girl{
+  display: none;
+}
+.home-element {
+    margin: 0 60px;
+}
+.Title{
+  font-size: 4rem;
+  margin-top: 13rem;
+  margin-bottom: 25px;
+  font-weight: 350;
+  line-height: 1.4;
+}
+.Subtitle{
+  font-size: 1.2rem;
+  font-weight: 350;
+  line-height: 1.4;
+  padding-right: 10px;
+  letter-spacing: 1.5px;
+}
+.buttonAnt{
+    margin: 60px;
+}
+.buttonAnt{
+  background-color: var(--button-bg-color);
+}
+.buttonAnt:hover{
+  background-color: var(--button-hover-color);
+}
+.buttonAnt:focus{
+  background-color: var(--button-focus-color);
+}
+@media (min-width: 768px) {
+  .home-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+   .girl {
+    display: flex;
+    width: 20rem;
+    position: absolute;
+    margin-right: 1rem;
+    top: 50;
+    bottom: 0;
+    transform: translateX(70%);
+  } 
+  .text{
+    position: absolute;
+    margin: 1rem;
+    margin-right: 250px;
+    margin-left: 33rem;
+    transform: translateX(10%);
+    bottom: 0;
+  }
 }
