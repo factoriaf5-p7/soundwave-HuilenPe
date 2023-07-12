@@ -2,24 +2,25 @@
   display: none;
 }
 .home-element {
-    margin: 0 60px;
+  margin: 0px 60px;
 }
 .Title{
   font-size: 4rem;
-  margin-top: 13rem;
+  margin-top: 6.5rem;
   margin-bottom: 25px;
   font-weight: 350;
   line-height: 1.4;
 }
 .Subtitle{
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 350;
   line-height: 1.4;
   padding-right: 10px;
   letter-spacing: 1.5px;
 }
 .buttonAnt{
-    margin: 60px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 .buttonAnt{
   background-color: var(--button-bg-color);
@@ -36,7 +37,7 @@
     align-items: center;
     justify-content: space-between;
   }
-   .girl {
+  .girl {
     display: flex;
     width: 20rem;
     position: absolute;

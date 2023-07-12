@@ -38,8 +38,8 @@ export function Formulario() {
                         ]}>
                         <Password />
                     </Item>
-                    <Item>
-                        <Button type='primary' htmlType='submit'>Join Now</Button>
+                    <Item >
+                        <Button className="btn" type='primary' htmlType='submit'>Join Now</Button>
                     </Item>
                 </Form>
             </div>

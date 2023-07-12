@@ -1,8 +1,15 @@
 .container{
+    width: 17rem;
     position: absolute;
     left: 50%;
-    top:50%;
+    top:60%;
     transform: translate(-50%, -50%);
     padding: 40px 40px 10px 40px;
-    background-color:var(--form-bg-color) ;
+    background-color: #202027;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.btn{
+    width: 12.9rem;
 }

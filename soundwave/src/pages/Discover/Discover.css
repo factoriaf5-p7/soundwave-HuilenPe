@@ -8,15 +8,15 @@
 .byJoining,
 .plantilla {
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .newMusic{
-  margin-top: 50px;
-  font-size: 50px;
+  margin-top: 25px;
+  font-size: 45px;
 }
 .byJoining{
-  margin-top: 50px;
-  font-size: 18px;
+  margin-top: 20px;
+  font-size: 17px;
 }
 .Cards {
   display: flex;
