@@ -9,7 +9,9 @@
     border-radius: 20px;
     margin-top: 30px;
 }
-
 .btn{
     width: 12.9rem;
+}
+.ant-form-item-label > label {
+  color: white !important;
 }

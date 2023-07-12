@@ -11,8 +11,8 @@ export function Join() {
             </Header>
             <Content>
                 <h1 className="titleJoin">Join the <span className="color">fun.</span></h1>
-                <Formulario />
-            </Content>    
+            </Content>
+            <Formulario />
             <Footer />
         </>
     ) 
