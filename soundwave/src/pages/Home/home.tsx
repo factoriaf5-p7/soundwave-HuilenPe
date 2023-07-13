@@ -10,6 +10,9 @@ export function Home() {
             <Header>
                 <NavBar />
             </Header>
+            <div className="circle circle-3"></div>
+            <div className="circle circle-4"></div>
+            <div className="circle circle-5"></div>
             <Content>
                 <div className="hero">
                     <div className="girl-container">

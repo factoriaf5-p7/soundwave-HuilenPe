@@ -9,6 +9,8 @@ export function Join() {
             <Header>
                 <NavBar />
             </Header>
+            <div className="circle circle-1"></div>
+            <div className="circle circle-2"></div>
             <Content>
                 <h1 className="titleJoin">Join the <span className="color">fun.</span></h1>
             </Content>
