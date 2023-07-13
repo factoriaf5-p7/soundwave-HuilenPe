@@ -1,20 +1,21 @@
+import { Link } from 'react-router-dom'
 import './Cards.css'
 
 export function Cards() {
     return (
         <div className='iconos'>
-            <a href= "#" className="microphone">
+            <Link to= "#" className="microphone">
                 <img src="/microphone.svg" alt="microphone" />
                 <p>Charts</p>
-            </a>
-            <a href= "#" className="album">
+            </Link>
+            <Link to= "#" className="album">
                 <img src="albums.svg" alt="albums" />
                 <p>Albums</p>
-            </a>
-            <a href="#" className="more">
+            </Link>
+            <Link to="#" className="more">
                 <img src="/more.svg" alt="more" />
                 <p>More</p>
-            </a>
+            </Link>
         </div>
     )
 }

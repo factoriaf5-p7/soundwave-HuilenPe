@@ -21,17 +21,17 @@ export const NavBar = () => {
             } />
             <Menu className='items-menu link' mode='horizontal' items={[{
                 label: (
-                    <a href="/discover" rel="Discover Hero Page">
+                    <Link to="/discover" rel="Discover Hero Page">
                         Discover
-                    </a>
+                    </Link>
                 ),
                 key: 'discover',
             },
             {
                 label: (
-                    <a href="/join " rel="Registering Page">
+                    <Link to="/join " rel="Registering Page">
                         Join
-                    </a>
+                    </Link>
                 ),
                 key: 'join',
             },]}
