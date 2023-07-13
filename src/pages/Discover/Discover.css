@@ -1,0 +1,57 @@
+.dicoverFull {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+}
+.newMusic,
+.byJoining,
+.plantilla {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.newMusic{
+  margin-top: 25px;
+  font-size: 45px;
+}
+.byJoining{
+  margin-top: 20px;
+  font-size: 17px;
+}
+.Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.plantilla {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  height: auto;
+} 
+@media (min-width: 768px) {
+  .dicoverFull {
+    margin-top: 120px;
+    margin-left: 180px; 
+    margin-right: 80px; 
+  }
+  .plantilla {
+    width: 35%; 
+    margin-left: 35rem;
+    margin-top: -21rem; 
+  }
+  .byJoining{
+    font-size: 15px;
+  }
+  .newMusic{
+    margin-top: 50px;
+    font-size: 45px;
+    margin-bottom: 10px!important;
+  }
+  .cards,
+  .byJoining{
+    margin-top: 50px;
+  }
+}

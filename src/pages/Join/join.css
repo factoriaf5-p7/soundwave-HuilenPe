@@ -1,0 +1,53 @@
+.titleJoin,
+.Formulario {
+  margin-left: 70px;
+  margin-right: 140px;
+}
+.titleJoin{
+  font-size: 50px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.color{
+    color: #bc3a80;
+}
+.circle-1 {
+  position: fixed;
+  top: -10%;
+  left: 20%;
+  width: 120px;
+  height: 120px;
+  background-color: #3457b21a;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-2 {
+  position: fixed;
+  bottom: 30px;
+  left: 60px;
+  width: 120px;
+  height: 120px;
+  background-color:#bc3a801a ;
+  border-radius: 50%;
+  z-index: -1;
+}
+@media (min-width: 768px){
+  .titleJoin{
+    display: flex;
+    justify-content: center;
+
+  }
+  .circle-1 {
+    width: 350px;
+    height: 350px;
+    top: -20%;
+    left: 26%;
+  }
+  .circle-2 {
+    width: 500px;
+    height: 500px;
+    left: -50px;
+    bottom: -50px;
+  }
+}
