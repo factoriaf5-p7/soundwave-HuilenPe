@@ -1,8 +1,8 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
+import { Discover } from './pages/Discover/discover'
 import { Home } from './pages/Home/Home'
 import { Join } from './pages/Join/join'
-import { Discover } from './pages/Discover/discover'
 function App() {
   return (
     <>
