@@ -4,7 +4,6 @@ import { Footer } from "../../components/Footer/Footer";
 import "./Discover.css"
 import { Cards } from "../../components/Cards/Cards";
 import { Content, Header } from "antd/es/layout/layout";
-import Sider from "antd/es/layout/Sider";
 
 export function Discover() {
     return (
