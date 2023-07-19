@@ -1,0 +1,19 @@
+.NavBar{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header{
+  background: #2F303A !important;
+}
+.items-menu{
+  background-color: var( --general-bg-color) ;
+  color:white;
+  min-width: 150px; 
+  font-size: 14px;
+}
+.home-link{
+  font-size: 23px;
+  font-weight:250;
+}
